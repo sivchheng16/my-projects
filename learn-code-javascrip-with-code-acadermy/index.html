@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascrip</title>
+    <style>
+        #text {
+            text-align:center;
+            transition: 3s;
+        } 
+        
+        #texts {
+            text-align: center;
+            transition: all 1s;
+            -webkit-transition: all 1s;
+        }
+
+        #t {
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+            background: pink;
+            height: 200px;
+        }
+        #box {
+            width: 100px;
+            height: 100px;
+            background: black;
+
+        }
+        #print {
+            color: white;
+            background: rgb(185, 31, 31);
+            width: 100px;
+            height: 50px;
+            float: right;
+        }
+        
+        #fun {
+            text-align: center;
+            transition: all 1s;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div id="text" onclick="textStyle()" >Welecom to Javascrip</div>
+
+    <div id="texts">Hello javascrip</div>
+
+    <div id="t">Hello</div>
+    <div id="box"></div>
+
+    <button id="print" onclick="window.print()">print this page</button>
+
+    <div id="demo" style="color: red; z-index:111; background: rgb(201, 206, 201);"></div>
+
+
+    <button>click</button>
+     
+    <div id="fun" onclick="funStyle()">welcome to khode</div>
+
+    <input type="number" id="width" placeholder="width">
+    <input type="number" id="height" placeholder="height">
+    <button onclick="triangleArea()">calculate</button>
+
+    <div id="a"></div>
+
+
+
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#header {
+    width: 100%;
+    height: 600px;
+    background-image: url(../picture/greadient.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    
+}
+#nav {
+    width: 1000px;
+    height:  60px;
+    margin: 0 auto;
+    padding: 10px;
+    
+}
+#nav > div {
+    color: white;
+    width: 25%;
+    float: left;
+    line-height: 60px;
+
+}
+#nav > div.nav-about {
+    text-align: center;
+}
+#nav > div > a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+#nav > div > div > a{
+    text-decoration: none;
+    color:white;
+}
+#nav > div > a:hover {
+    color:#fac79d;
+}
+#nav > div > div > a:hover {
+    color:#fac79d;
+}
+
+#content {
+    width: 1000px;
+    height:400px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+#content > div {
+    width: 50%;
+    height:400px;
+    color: white;
+    float: left;
+}
+#content > div > div > div {
+    padding-top: 30px;
+}
+#content > div > div > div > a {
+    border: 2px solid #ffffff;
+    border-radius: 6px;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+#content > div > div > div > a:hover {
+    background-color: #47B3E6;
+    border: 2px solid #47B3E6;
+
+}
+#content > div > div {
+    padding-top: 50px;
+}
+
+
+
